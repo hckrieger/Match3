@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/hckrieger/Development/GameDev/MonoGame/Games/Match3/Content/Sprites/Cursor.png","/home/hckrieger/Development/GameDev/MonoGame/Games/Match3/Content/bin/DesktopGL/Sprites/Cursor.xnb","TextureProcessor","Texture2DContent",122,341,0.0841632
+"/home/hckrieger/Development/GameDev/MonoGame/Games/Match3/Content/Sprites/Match3.png","/home/hckrieger/Development/GameDev/MonoGame/Games/Match3/Content/bin/DesktopGL/Sprites/Match3.xnb","TextureProcessor","Texture2DContent",342,7253,0.0898989
