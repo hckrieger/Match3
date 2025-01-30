@@ -4,8 +4,8 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/hckrieger/Development/GameDev/MonoGame/Games/Match3/Content/Sprites/Cursor.png</File>
-    <File>/home/hckrieger/Development/GameDev/MonoGame/Games/Match3/Content/Sprites/Match3.png</File>
+    <File>C:/Users/hckri/source/repos/MonoGame/games/Match3/Content/Sprites/Cursor.png</File>
+    <File>C:/Users/hckri/source/repos/MonoGame/games/Match3/Content/Sprites/Match3.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

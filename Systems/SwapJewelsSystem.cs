@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Net.Sockets;
+using System.Reflection.PortableExecutable;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
@@ -26,76 +28,101 @@ namespace Match3.Systems
         {
             RequireComponent<TransformComponent>();
             RequireComponent<SpriteComponent>();
+            RequireComponent<BoxColliderComponent>();
 
             inputManager = game.Services.GetService<InputManager>();
 
             this.jewelGrid = jewelGrid;
         }
 
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
- 
- 
-
-            foreach (var entity in GetSystemEntities().Where(m => m.BelongsToGroup("jewel")))
-            {
-                //If there's no selected jewel
-                if (selectedJewel1 == null && switchableJewels.Count == 0)
-                {
-                    SelectJewel(entity);
+		public override void Update(GameTime gameTime)
+		{
+			base.Update(gameTime);
 
 
+			foreach (var entity in GetSystemEntities().Where(e => e.BelongsToGroup("jewel")))
+			{
+				var gridPos = entity.GetComponent<GridPositionComponent>().GridPosition;
 
-                    if (switchableJewels.Count > 0)
-                        break;
-                    
-                }
+				void SelectJewel1()
+				{
+					selectedJewel1 = entity;
 
-                //If there is a selected jewel....
-                if (selectedJewel1 != null)
-                {
-                    foreach (var jewel in switchableJewels)
-                    {
-                        
-                        if (entity == jewel)
-                        {
-                            
-                                var x = 0;
-                        } else 
-                        {
-                            Entity initialEntity = entity;
-                            SelectJewel(entity);
-                            if (entity != initialEntity)
-                                break;
-                        }
-                    }
-                }
+					Logger.Info($"selected entity 1: {entity}");
 
- 
-            }
-               
-        }
+					switchableJewels.Clear();
 
-        private void SelectJewel(Entity entity)
-        {
-                var gridPos = entity.GetComponent<GridPositionComponent>(); 
-                var entityRect = entity.GetComponent<BoxColliderComponent>();
-                if (entityRect.BoundingBox.Contains(inputManager.MousePosition()) && 
-                        inputManager.MouseButtonJustDown())
-                    {
-                        selectedJewel1 = entity; 
 
-                        switchableJewels.Clear();
+					if (gridPos.Y < 7)
+						switchableJewels.Add(jewelGrid.Grid[gridPos.X, gridPos.Y + 1]);
 
-                        switchableJewels.Add(jewelGrid.Grid[gridPos.GridPosition.X, gridPos.GridPosition.Y + 1]);
-                        switchableJewels.Add(jewelGrid.Grid[gridPos.GridPosition.X, gridPos.GridPosition.Y - 1]);
-                        switchableJewels.Add(jewelGrid.Grid[gridPos.GridPosition.X + 1, gridPos.GridPosition.Y]);
-                        switchableJewels.Add(jewelGrid.Grid[gridPos.GridPosition.X - 1, gridPos.GridPosition.Y]);
+					if (gridPos.Y > 0)
+						switchableJewels.Add(jewelGrid.Grid[gridPos.X, gridPos.Y - 1]);
 
-                    }
-        }
+					if (gridPos.X < 7)
+						switchableJewels.Add(jewelGrid.Grid[gridPos.X + 1, gridPos.Y]);
 
+					if (gridPos.X > 0)
+						switchableJewels.Add(jewelGrid.Grid[gridPos.X - 1, gridPos.Y]);
+				}
+
+				if (selectedJewel1 == null && switchableJewels.Count == 0)
+				{
+					
+					if (entity.GetComponent<BoxColliderComponent>().BoundingBox.Contains(inputManager.MousePosition()) &&
+						inputManager.MouseButtonJustDown())
+					{
+						SelectJewel1();
+
+						break;
+					}
+				}
+				else
+				{
+					if (entity.GetComponent<BoxColliderComponent>().BoundingBox.Contains(inputManager.MousePosition()) &&
+						inputManager.MouseButtonJustDown())
+					{
+						foreach (var jewel in switchableJewels)
+						{
+							if (entity == jewel)
+							{
+								selectedJewel2 = entity;
+								Logger.Info($"selected entity 2: {entity}");
+								break;
+							}
+						}
+
+						if (selectedJewel2 != null)
+						{
+							
+							jewelGrid.SwapJewels(selectedJewel1, selectedJewel2);
+
+							selectedJewel1 = null;
+							selectedJewel2 = null;
+							switchableJewels.Clear();
+							break;
+						} else 
+						{
+							SelectJewel1();
+							break;
+						}
+					}
+
+
+
+
+
+
+
+
+				}
+
+
+
+			}
+
+
+		}
 
     }
 }

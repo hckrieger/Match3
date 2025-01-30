@@ -44,8 +44,12 @@ namespace Match3
         {
             ref var jewelTransform = ref jewel.GetComponent<TransformComponent>();
             jewelTransform.LocalPosition += new Vector2(adjacentPosition.X * 16, adjacentPosition.Y * 16);
+
             Grid[destinationPoint.X, destinationPoint.Y] = jewel;
-            jewel.GetComponent<GridPositionComponent>().GridPosition = new Point(destinationPoint.X, destinationPoint.Y);
+
+            ref var jewelGridComponent = ref jewel.GetComponent<GridPositionComponent>();
+            jewelGridComponent.GridPosition = new Point(destinationPoint.X, destinationPoint.Y);
+
         }
 
         private bool PositionCheck(int x, int y, Point pos2, Point pos3)

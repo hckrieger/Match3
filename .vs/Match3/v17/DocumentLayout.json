@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\renderbmptextsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|c:\\users\\hckri\\source\\repos\\monogame\\games\\match3\\scenes\\playingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|solutionrelative:scenes\\playingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|c:\\users\\hckri\\source\\repos\\monogame\\games\\match3\\systems\\swapjewelssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|solutionrelative:systems\\swapjewelssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\collisionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\animationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|c:\\users\\hckri\\source\\repos\\monogame\\games\\match3\\systems\\colortojewelsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|solutionrelative:systems\\colortojewelsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\movementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\rendersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\ecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\transformsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\rendercollidersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\systems\\renderttftextsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\components\\boxcollidercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CEF416-B816-4F53-8987-F4BF65F312D4}|..\\..\\Libraries\\Frith\\Frith.csproj|c:\\users\\hckri\\source\\repos\\monogame\\libraries\\frith\\extensions\\entityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|c:\\users\\hckri\\source\\repos\\monogame\\games\\match3\\jewelgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969C52F6-D8FB-4CF8-9518-5129138D064E}|Match3.csproj|solutionrelative:jewelgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ECS.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\ECS.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\ECS.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\ECS.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\ECS.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAtwKcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T22:52:16.094Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayingScene.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\Scenes\\PlayingScene.cs",
+              "RelativeDocumentMoniker": "Scenes\\PlayingScene.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\Scenes\\PlayingScene.cs",
+              "RelativeToolTip": "Scenes\\PlayingScene.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:17:22.25Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RenderSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\RenderSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\RenderSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:52.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RenderBmpTextSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderBmpTextSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\RenderBmpTextSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderBmpTextSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\RenderBmpTextSystem.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:48.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovementSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\MovementSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\MovementSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\MovementSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\MovementSystem.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:47.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColorToJewelSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\Systems\\ColorToJewelSystem.cs",
+              "RelativeDocumentMoniker": "Systems\\ColorToJewelSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\Systems\\ColorToJewelSystem.cs",
+              "RelativeToolTip": "Systems\\ColorToJewelSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:46.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimationSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\AnimationSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\AnimationSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\AnimationSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\AnimationSystem.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wBMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:40.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwapJewelsSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\Systems\\SwapJewelsSystem.cs",
+              "RelativeDocumentMoniker": "Systems\\SwapJewelsSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\Systems\\SwapJewelsSystem.cs",
+              "RelativeToolTip": "Systems\\SwapJewelsSystem.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T22:54:28.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransformSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\TransformSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\TransformSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\TransformSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\TransformSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:54.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollisionSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\CollisionSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\CollisionSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\CollisionSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\CollisionSystem.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:27:22.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Scene.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Scene.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Scene.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Scene.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwE4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:18:49.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RenderColliderSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderColliderSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\RenderColliderSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderColliderSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\RenderColliderSystem.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:51.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RenderTtfTextSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderTtfTextSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Systems\\RenderTtfTextSystem.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Systems\\RenderTtfTextSystem.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Systems\\RenderTtfTextSystem.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:36:53.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BoxColliderComponent.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Components\\BoxColliderComponent.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Components\\BoxColliderComponent.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Components\\BoxColliderComponent.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Components\\BoxColliderComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T00:27:06.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JewelGrid.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\JewelGrid.cs",
+              "RelativeDocumentMoniker": "JewelGrid.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\JewelGrid.cs",
+              "RelativeToolTip": "JewelGrid.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:14:22.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EntityExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Extensions\\EntityExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\libraries\\Frith\\Extensions\\EntityExtensions.cs",
+              "ToolTip": "C:\\Users\\hckri\\source\\repos\\MonoGame\\libraries\\Frith\\Extensions\\EntityExtensions.cs",
+              "RelativeToolTip": "..\\..\\libraries\\Frith\\Extensions\\EntityExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T22:53:07.488Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

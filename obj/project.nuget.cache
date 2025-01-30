@@ -1,18 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ZnFD//z474I=",
+  "dgSpecHash": "+/1s8XQywas=",
   "success": true,
-  "projectFilePath": "/home/hckrieger/Development/GameDev/MonoGame/Games/Match3/Match3.csproj",
+  "projectFilePath": "C:\\Users\\hckri\\source\\repos\\MonoGame\\games\\Match3\\Match3.csproj",
   "expectedPackageFiles": [
-    "/home/hckrieger/.nuget/packages/monogame.content.builder.task/3.8.2.1105/monogame.content.builder.task.3.8.2.1105.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/monogame.framework.desktopgl/3.8.2.1105/monogame.framework.desktopgl.3.8.2.1105.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/monogame.library.sdl/2.26.5.5/monogame.library.sdl.2.26.5.5.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/nvorbis/0.10.4/nvorbis.0.10.4.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/tiledlib/5.0.0/tiledlib.5.0.0.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/tiledlib.pipeline/5.0.0/tiledlib.pipeline.5.0.0.nupkg.sha512",
-    "/home/hckrieger/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.12/microsoft.netcore.app.host.linux-x64.8.0.12.nupkg.sha512"
+    "C:\\Users\\hckri\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\monogame.content.builder.task.3.8.2.1105.nupkg.sha512",
+    "C:\\Users\\hckri\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.2.1105\\monogame.framework.desktopgl.3.8.2.1105.nupkg.sha512",
+    "C:\\Users\\hckri\\.nuget\\packages\\monogame.library.sdl\\2.26.5.5\\monogame.library.sdl.2.26.5.5.nupkg.sha512",
+    "C:\\Users\\hckri\\.nuget\\packages\\nvorbis\\0.10.4\\nvorbis.0.10.4.nupkg.sha512",
+    "C:\\Users\\hckri\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\hckri\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\hckri\\.nuget\\packages\\tiledlib\\5.0.0\\tiledlib.5.0.0.nupkg.sha512",
+    "C:\\Users\\hckri\\.nuget\\packages\\tiledlib.pipeline\\5.0.0\\tiledlib.pipeline.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

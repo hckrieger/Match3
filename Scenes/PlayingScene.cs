@@ -43,10 +43,7 @@ namespace Match3.Scenes
             registry.AddSystem(colorToJewelSystem);
             registry.AddSystem(swapJewelsSystem);
 
-            Entity selector = registry.CreateEntity();
-            selector.LoadSpriteComponents("selector", "Sprites/Match3",
-                                        Vector2.Zero, game, new Point(16, 16), 6);
-            selector.GetComponent<SpriteComponent>().Visible = false;
+
             
 
            
@@ -55,6 +52,7 @@ namespace Match3.Scenes
             {
                 for (int x = 0; x < GRID_DIMENSION; x++)
                 {
+                
                     grid[x, y] = registry.CreateEntity(this);
                     grid[x, y].Group("jewel");
                     grid[x, y].LoadSpriteComponents($"jewel{x}x{y}", "Sprites/Match3", 
@@ -71,8 +69,14 @@ namespace Match3.Scenes
 
             jewelGrid.EliminateMatches();
 
+			Entity selector = registry.CreateEntity();
+			selector.LoadSpriteComponents("selector", "Sprites/Match3",
+										Vector2.Zero, game, new Point(16, 16), 6);
+			selector.Tag("selector");
+			selector.GetComponent<SpriteComponent>().Visible = false;
 
-        }
+
+		}
 
         public override void Update(GameTime gameTime)
         {
