@@ -32,8 +32,17 @@ namespace Match3.Scenes
             var rootTransform = new TransformComponent(){ LocalPosition = new Vector2(100, 7) };
             rootGrid.AddComponent(rootTransform);
 
+			Entity selector = registry.CreateEntity();
+			selector.LoadSpriteComponents("selector", "Sprites/Match3",
+										Vector2.Zero, game, new Point(16, 16), 6);
+			selector.Tag("selector");
+			selector.GetComponent<SpriteComponent>().Visible = false;
+			selector.AddComponent(new GridPositionComponent(new Point(0, 0)));
+            selector.GetComponent<TransformComponent>().LocalPosition = new Vector2(-1000, -1000);
+            selector.SetParent(rootGrid);
 
-            jewelGrid = new JewelGrid(game);
+
+			jewelGrid = new JewelGrid(game);
             jewelGrid.Grid = grid;
 
             var colorToJewelSystem = new ColorToJewelSystem(game);
@@ -69,11 +78,7 @@ namespace Match3.Scenes
 
             jewelGrid.EliminateMatches();
 
-			Entity selector = registry.CreateEntity();
-			selector.LoadSpriteComponents("selector", "Sprites/Match3",
-										Vector2.Zero, game, new Point(16, 16), 6);
-			selector.Tag("selector");
-			selector.GetComponent<SpriteComponent>().Visible = false;
+
 
 
 		}

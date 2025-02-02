@@ -24,7 +24,9 @@ public class Game1 : Engine
     {
         
         IsMouseVisible = false;
-        isFullScreen = false;
+        isFullScreen = true;
+        
+
     }
 
     protected override void Initialize()
@@ -37,10 +39,11 @@ public class Game1 : Engine
         
         var registry = Globals<Registry>.Instance();
 
-        registry.AddSystem(new RenderSystem(this));
+        
         registry.AddSystem(new TransformSystem());
+		registry.AddSystem(new RenderSystem(this));
 
-        sceneManager.AddScene(PLAYING_SCENE, new PlayingScene(this));
+		sceneManager.AddScene(PLAYING_SCENE, new PlayingScene(this));
        // sceneManager.AddScene(NEXT_SCREEN, new NextScene())
         sceneManager.SwitchToScene(PLAYING_SCENE);
 
